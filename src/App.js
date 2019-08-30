@@ -1,23 +1,18 @@
-import React from 'react';
+import React from 'react'
+import Header from './Header'
+import MemeGenerator from './MemeGenerator'
 
-import './App.css';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Meme Generator</h1>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ... or you can learn React
-        </a>
-      </header>
+      <Header />
+      <MemeGenerator />
+    
     </div>
+    
+    
   );
 }
 
