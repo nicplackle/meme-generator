@@ -34,7 +34,7 @@ h1 {
 }
 
 .meme > img {
-  width: 50%;
+  max-width: 30%;
 }
 
 .meme > h2 {
